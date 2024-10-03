@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TaxCalculator.css">
+    <title>Tax Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tax Calculator</h1>
+        <div class="input-group">
+            <label for="price">Price:</label>
+            <input type="number" id="price" placeholder="Enter price" required>
+        </div>
+        <div class="input-group">
+            <label for="tax">Tax Percentage (%):</label>
+            <input type="number" id="tax" placeholder="Enter tax percentage" required>
+        </div>
+        <button id="calculate">Calculate</button>
+        
+        <div id="result" class="result">
+            <p id="taxAmount">Tax Amount: $0.00</p>
+            <p id="totalAmount">Total Amount: $0.00</p>
+        </div>
+        <div><h6>&copy;UmangTiwari</h6></div>
+    </div>
+
+    <script src="TaxCalculator.js"></script>
+</body>
+</html>
